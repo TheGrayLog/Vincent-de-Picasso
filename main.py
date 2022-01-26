@@ -1,9 +1,9 @@
 import turtle
 t = turtle.Turtle()
 #Red starts at line 614
-#Tan starts at Line 1124
+#Wheat starts at Line 1124
 
-t.color('brown')
+t.color('yellow4')
 t.speed(0)
 
 t.penup()
@@ -1121,8 +1121,8 @@ for i in range(4):
   t.forward(20)
   t.left(90)
 t.end_fill()
-#Red ends. Tan Begins
-t.color('tan')
+#Red ends. Wheat Begins
+t.color('wheat')
 t.speed(0)
 
 t.penup()
