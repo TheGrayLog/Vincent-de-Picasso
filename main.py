@@ -1597,3 +1597,14 @@ for i in range(4):
   t.forward(20)
   t.left(90)
 t.end_fill()
+
+t.penup()
+t.setpos(120,-80)
+t.setheading(0)
+t.pendown()
+
+t.begin_fill()
+for i in range(4):
+  t.forward(20)
+  t.left(90)
+t.end_fill()
